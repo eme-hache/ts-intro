@@ -1,13 +1,13 @@
 let skills: string[] = ['Bash', 'Counter', 'Healing'];
 
-interface Person4 {
+interface Heroe {
     name: string;
     hp: number;
     skills: string[];
     from?: string;
 }
 
-const person: Person4 = {
+const person: Heroe = {
     name: 'Strider',
     hp: 100,
     skills: ['Bash', 'Counter', 'Healing']
