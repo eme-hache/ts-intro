@@ -14,7 +14,8 @@
     "webpack-cli": "^5.1.4"
   },
   "scripts": {
-    "start:windows": "set NODE_OPTIONS=--openssl-legacy-provider && webpack-dev-server --mode development --open --port=8081"
+    "start:windows": "set NODE_OPTIONS=--openssl-legacy-provider && webpack-dev-server --mode development --open --port=8081",
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider && webpack-dev-server --mode development --open --port=8081"
   },
   "author": "",
   "license": "ISC"
